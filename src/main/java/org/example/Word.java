@@ -1,20 +1,17 @@
 package org.example;
 
 public class Word {
-    // word의 데이터
     private int level;
     private String wordName;
     private String meaning;
 
-    // 생성자
-    public Word(){};
+    public Word() {};
     public Word(int level, String wordName, String meaning) {
         this.level = level;
         this.wordName = wordName;
         this.meaning = meaning;
     }
 
-    // getter 및 setter
     public int getLevel() {
         return level;
     }
@@ -23,11 +20,11 @@ public class Word {
         this.level = level;
     }
 
-    public String getWordName() {
+    public String getName() {
         return wordName;
     }
 
-    public void setWordName(String wordName) {
+    public void setName(String name) {
         this.wordName = wordName;
     }
 
@@ -42,13 +39,12 @@ public class Word {
     @Override
     public String toString() {
         String star = "";
-        for(int i = 0; i < level; i++)
-            star += "*";
-
-        String str = String.format("%-3s", star)
-                + String.format("%15s", wordName)
-                + "  " + meaning;
-
+        for(int i = 0; i < level; i++) star += "*";
+        String str = String.format("%-3s", star) +
+                String.format("%15s", wordName) +
+                String.format("  " + meaning);
         return str;
     }
 }
+
+

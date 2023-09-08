@@ -1,21 +1,23 @@
 package org.example;
 
 import java.util.Scanner;
-
-public class WordManager {
+public class WordManager implements IWORDMANAGER{
+    Scanner s = new Scanner(System.in);
     WordCRUD wordCRUD;
-
     WordManager() {
         wordCRUD = new WordCRUD();
     }
 
+    @Override
     public void start() {
-        System.out.println("**** 영단어 마스터 ****");
+        System.out.println("*** 영단어 마스터 ***\n");
         menu();
     }
+
+    @Override
     public void menu() {
-        while(true) {
-            System.out.println("******************** \n" +
+        while (true) {
+            System.out.println("********************\n" +
                     "1. 모든 단어 보기\n" +
                     "2. 수준별 단어 보기\n" +
                     "3. 단어 검색\n" +
@@ -25,26 +27,42 @@ public class WordManager {
                     "7. 파일 저장\n" +
                     "0. 나가기\n" +
                     "********************");
-            System.out.print("=> 원하는 메뉴는? ");
-            Scanner s = new Scanner(System.in);
+            System.out.print("=> 원하는 메뉴는 ? ");
             int menu = s.nextInt();
 
-            if (menu == 0) {
-                System.out.println("프로그램이 종료되었습니다~");
+            if(menu == 0) {
+                System.out.print("프로그램 종료! 다음에 만나요~");
                 break;
             }
+            else selectMenu(menu);
 
-            else if (menu == 4) {
-                wordCRUD.add();
-            }
+        }
+    }
+    public void selectMenu(int menu) {
+        if(menu == 1) {
+            wordCRUD.read();
+        }
+        else if(menu == 2) {
 
-            else if (menu == 1) {
-                wordCRUD.read();
-            }
+        }
+        else if(menu == 2) {
 
-            else if  (menu == 5) {
-                wordCRUD.update();
-            }
+        }
+        else if(menu == 3) {
+
+        }
+        // 단어 추가
+        else if(menu == 4) {
+            wordCRUD.create(s);
+        }
+        else if(menu == 5) {
+
+        }
+        else if(menu == 6) {
+
+        }
+        else if(menu == 7) {
+
         }
     }
 }

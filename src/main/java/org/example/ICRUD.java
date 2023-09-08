@@ -1,8 +1,10 @@
 package org.example;
 
+import java.util.Scanner;
+
 public interface ICRUD {
-    public void add();
+    public void create(Scanner s);
     public void read();
-    public String update();
-    public String delete();
+    public void update();
+    public void delete();
 }

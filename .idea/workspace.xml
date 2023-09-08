@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c66ceff-18a5-4ee7-9f75-ee139d9dd3ef" name="변경" comment="">
+    <list default="true" id="1c66ceff-18a5-4ee7-9f75-ee139d9dd3ef" name="변경" comment="Third commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ICRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ICRUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/IWORDMANAGER.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Word.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -67,7 +71,27 @@
       <workItem from="1693875664402" duration="1682000" />
       <workItem from="1693878223267" duration="1815000" />
       <workItem from="1693923300555" duration="26000" />
+      <workItem from="1694007018640" duration="126000" />
+      <workItem from="1694010875417" duration="16000" />
+      <workItem from="1694011336394" duration="5000" />
+      <workItem from="1694011835622" duration="329000" />
+      <workItem from="1694050268816" duration="67000" />
+      <workItem from="1694051245952" duration="1285000" />
+      <workItem from="1694052697796" duration="719000" />
+      <workItem from="1694096390094" duration="16000" />
+      <workItem from="1694135239051" duration="11000" />
+      <workItem from="1694135605842" duration="1743000" />
+      <workItem from="1694138115106" duration="297000" />
     </task>
+    <task id="LOCAL-00001" summary="Third commit">
+      <option name="closed" value="true" />
+      <created>1694007057703</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694007057703</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -105,5 +129,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Third commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Third commit" />
   </component>
 </project>

@@ -1,4 +1,5 @@
 [실행 및 단어 추가 사진]
+
 <img src="https://github.com/SeungBeomLim/JavaProject/blob/master/screenshots/%EC%8B%A4%ED%96%89%20%EB%B0%8F%20%EB%8B%A8%EC%96%B4%20%EC%B6%94%EA%B0%80.png?raw=true" width="600">
 
 

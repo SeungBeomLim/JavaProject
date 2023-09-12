@@ -10,6 +10,7 @@ public class WordManager implements IWORDMANAGER{
 
     @Override
     public void start() {
+        wordCRUD.loadFile();
         System.out.println("*** 영단어 마스터 ***\n");
         menu();
     }
@@ -43,26 +44,24 @@ public class WordManager implements IWORDMANAGER{
             wordCRUD.read();
         }
         else if(menu == 2) {
-
-        }
-        else if(menu == 2) {
+            wordCRUD.readByLevel(s);
 
         }
         else if(menu == 3) {
-
+            wordCRUD.search(s);
         }
         // 단어 추가
         else if(menu == 4) {
             wordCRUD.create(s);
         }
         else if(menu == 5) {
-
+            wordCRUD.update(s);
         }
         else if(menu == 6) {
-
+            wordCRUD.delete(s);
         }
         else if(menu == 7) {
-
+            wordCRUD.saveFile();
         }
     }
 }

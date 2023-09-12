@@ -45,6 +45,10 @@ public class Word {
                 String.format("  " + meaning);
         return str;
     }
+
+    public String toFileString() {
+        return this.level + "|" + this.wordName + "|" + this.meaning;
+    }
 }
 
 

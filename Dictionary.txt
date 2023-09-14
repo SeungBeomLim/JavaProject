@@ -1,3 +1,31 @@
+1|culture|문화, 교양
+2|experience|경험, 경험하다
+1|education|교육
+1|symbol|상징
+1|effect|결과, 영향, 효과
+1|liberty|자유
+2|affair|사건, 일
+1|comfort|안락, 위안
+1|tradition|전통
+1|subject|학과, 주제, 주어
+1|object|물건, 목적, 반대하다
+1|source|출처, 근원
+2|revolution|혁명
+1|pollution|오염
+1|system|체계, 조직, 제도
+3|triumph|승리
+1|respect|존경, 존경하다
+1|communication|의사소통, 전달
+1|foundation|기초, 근거, 설립
+1|glory|영광
+2|situation|위치, 상황
+2|competition|경쟁
+3|prairie|대초원
+2|effort|노력
+3|section|부분, 구역
+3|rein|고삐
+2|solution|해결, 용해
+3|hono(u)r|명예, 경의, 존경하다
+3|unity|통일, 일치
+3|population|인구
 1|apple|사과
-1|electric|전기의, 전기를 생산하는
-1|music|음악

@@ -37,7 +37,7 @@ public class WordCRUD implements ICRUD {
     public void readByLevel(Scanner s) {
         System.out.print("난이도를 입력해주세요 : ");
         int level = s.nextInt();
-        System.out.println("           [난이도 별 단어장]           ");
+        System.out.println("           [난이도별 단어장]           ");
         System.out.println("-------------------------------------");
         for(int i = 0; i < note.size(); i++) {
             if(note.get(i).getLevel() == level) {
@@ -68,8 +68,9 @@ public class WordCRUD implements ICRUD {
         search(s);
         System.out.print("=> 수정할 번호 선택 : ");
         int id = s.nextInt();
+        s.nextLine();
         System.out.print("=> 수정할 뜻 입력 : ");
-        String meaning = s.next();
+        String meaning = s.nextLine();
         note.get(id-1).setMeaning(meaning);
         System.out.println("단어가 수정되었습니다.");
 
